@@ -1,0 +1,61 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+:root {
+  --blue: #8fb4fc;
+  --background: #212226;
+  --grey: #5a5c68;
+  --white: #fcfeff;
+  --black: #161616;
+}
+
+
+body {
+  /* padding: 5% 10%; */
+  background-color: var(--background);
+  color: var(--white);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+}
+
+.other-container {
+  overflow-y: scroll;
+}
+
+.luffy {
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+/* Applies to Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1b1b1b; /* Very dark background for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444444; /* Grey thumb for contrast */
+  border-radius: 10px; /* Rounded corners for a smoother look */
+  border: 3px solid #1b1b1b; /* Space around the thumb for visual depth */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555555; /* Slightly lighter color on hover */
+}

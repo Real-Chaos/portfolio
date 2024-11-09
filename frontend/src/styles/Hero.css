@@ -1,0 +1,84 @@
+/* ------------------------------------- HERO --------------------------------- */
+
+
+
+
+
+.nav {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.hero {
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  background-color: #000000;
+  /* background-image: url(https://wallpapersok.com/images/hd/illuminate-your-coding-with-binary-code-agx3h70ga36galq2-3.jpg); */
+  background-blend-mode:multiply;
+  background-position: center;
+  /* align-items: center; */
+  padding: 2% 6%;
+  color: #d3d3d3;
+  
+}
+
+/* ------------------------------------- ABOUT --------------------------------- */
+
+.about-me {
+  flex: 1;
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  background-color: var(--grey);
+  color: white;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+}
+
+.linkedin {
+  background-color: var(--blue);
+}
+
+/* ------------------------------------- PROFILE --------------------------------- */
+
+.profile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+
+/* ------------------------------------- HOBBIES --------------------------------- */
+
+.hobbies {
+	/* height: 300px;
+  width: 300px; */
+	flex: 1;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
